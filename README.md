@@ -1,4 +1,1 @@
-Nå skal dette funke
-Daniel, hysj nå
-
-Fuq u Daniel
+Jeg vet ikke hvordan GitHub fungerer :d
