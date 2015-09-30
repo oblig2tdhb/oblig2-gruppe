@@ -1,1 +1,4 @@
-# oblig2-gruppe
+Nå skal dette funke
+Daniel, hysj nå
+
+Fuq u Daniel
