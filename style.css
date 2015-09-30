@@ -1,3 +1,108 @@
-body{
-  
+* { 
+    margin:0;
+    padding:0;
+    color: #FFF;
+}
+
+
+body {
+    background-color: #C6C6C6;
+    margin: 0 auto;
+    width:960px;
+    line-height: 2.0;
+}
+
+header {
+    background: #999;
+    width: 910px;
+    margin: auto;
+    padding: 0px;
+    box-shadow: 2px 2px 7px #333;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    height:300px;
+    background-image: url(staredad.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20%;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    width: 1490px;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    margin-top: -3em;
+    
+}
+
+div {
+    background: #999;
+    width: 850px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px
+    border-style: solid;
+    border-color: #000;
+    box-shadow: 2px 2px 7px #333;
+    
+}
+
+#logo {
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    width: 556px;
+    height: 40px;
+    box-shadow: 0px 0px 0px;
+    margin-bottom: 0px;
+    margin: auto;
+}
+
+pre {
+    font-family: monospace, Courier;
+    background: #F2F2F2;
+    padding: 1em;
+    border: solid 1px #DDD;
+    box-shadow: 2px 2px 7px #333;
+    color: black;
+    line-height: 0.75;
+    margin: 10px;
+}
+
+ul li {
+    color: #FFF;
+    font-size: 17px;
+    line-height: 1.0;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 24px;
+}
+
+h3 {
+    color: #FFF;
+    font-size: 22px;
+}
+
+h4 {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 1.0;
+    margin: 10px;
+}
+
+p {
+    color: #FFF;
+    align-content: "Times New Roman";
+    font-size: 17px;
+}
+
+hr {
+    color: #FFF;
+    margin: 3px;
 }
