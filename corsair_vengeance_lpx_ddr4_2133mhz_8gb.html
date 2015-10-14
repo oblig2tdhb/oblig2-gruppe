@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Ukomplett </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="gruppeoppgavev2.css">
+	<meta name="author" content="Daniel Svensen Sundell">
+
+	
+	<script>
+		
+		function addcart(){
+			var antall = document.getElementById("antall").value;
+			alert("La til " + antall + " stk i Handlevognen.")
+		
+		}
+		
+	</script>
+	
+	
+	
+	
+	
+</head>
+
+<body>
+    <header>
+        <hr>
+        <div id="logo"></div>  
+        <hr>
+    </header>
+    <nav>
+		<ul>
+			<li>Datautstyr
+				<ul>
+					<li><a href="skjermkort.html">Skjermkort</a></li>
+					<li><a href="harddiskogssd.html">Harddisk og SSD</a></li>
+					<li><a href="hovedkort.html">Hovedkort</a></li>
+					<li><a href="minnekort.html">Minnekort</a></li>
+					<li><a href="cdrom.html">CD-Rom</a></li>
+					<li><a href="kabinett.html">Kabinett</a></li>
+				</ul>
+			</li>
+			<li>Mobildeler
+				<ul>
+					<li><a href="skjerm.html">Skjerm</a></li>
+					<li><a href="batteri.html">Batteri</a></li>
+					<li><a href="sdkort.html">SD-kort</a></li>
+				</ul>
+			</li>
+		</ul>
+    </nav>
+	<br>
+	<div id="main">
+		<h3>Corsair Vengeance LPX DDR4 2133MHz 8GB</h3>
+    
+		<img src="minnekortbilde2.jpg" alt="Corsair Vengeance LPX DDR4 2133MHz 8GB" height="200px" width="220px" />
+    
+		<h4>Pris: 449kr</h4>
+		
+		<input type="number" id="antall" value="1" style="color:black; width:50px"/><img src="cart.png" alt="cartIcon" height="50px" width="200px" onclick="addcart()" />
+		
+		<h4>Spesifikasjoner</h4>
+		<nav>
+			<ul>
+				<li>Kapasitet: 8 GB : 2 x 4 GB</li>
+				<li>Oppgraderingstype: Generisk</li>
+				<li>Produsentens varenr.: CMK8GX4M2A2133C13</li>
+				<li>Produsentens garanti(md.): 240</li>
+				<li>Vekt m/emballasje: 0.10 kg</li>
+				<li>Type: DRAM</li>
+				<li>Teknologi: DDR4 SDRAM</li>
+				<li>Produktformfaktor: DIMM 288-pin</li>
+				<li>Hastighet: 2133 MHz(PC4-17000)</li>
+				<li>Ventetidstiming: CL13(13-15-15-28)</li>
+				<li>Dataintegritetskontroll: Ikke-ECC</li>
+				<li>Egenskaper: To kanaler, 8-lags PCB-varmespreder, anodized aluminum heatspreader,<br>Intel Extreme Memory Profiles (XMP 2.0), Vengeance LPX low profile heatspreader, ikke-bufret</li>
+				<li>RAM-ytelse: SPD - 2133 MHz - 1.2 V - CL15 - 15-15-15-36<br>Tested - 2133 MHz - 1.2 V - CL13 - 13-15-15-28</li>
+				<li>Spenning: 1.2V</li>
+			</ul>
+		</nav>
+	</div>
+    <br>
+	
+    
+    <footer>
+        Ukomplett AS
+    </footer>
+</body>
+</html>
