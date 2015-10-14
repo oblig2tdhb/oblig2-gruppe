@@ -1,0 +1,14 @@
+@media screen and (max-width: 1020px) {
+    #container, #header, #content, #footer {
+        float: none;
+        width: auto;
+    }
+    #nav {
+        width:100%;
+        position:fixed;
+        top:0px;
+    }
+    p {
+        font-size: 2em 
+    }
+}
