@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Ukomplett </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="gruppeoppgave.css">
+</head>
+
+<body>
+    <header>
+        <hr>
+        <div id="logo"></div>  
+        <hr>
+    </header>
+ <nav>
+      <ul>
+        <li>Datautstyr
+        <ul>
+        <li><a href="skjermkort.html">Skjermkort</a></li>
+        <li><a href="harddiskogssd.html">Harddisk og SSD</a></li>
+
+        <li><a href="hovedkort.html">Hovedkort</a></li>
+
+        <li><a href="minnekort.html">Minnekort</a></li>
+
+        <li><a href="cdrom.html">CD-Rom</a></li>
+
+        <li><a href="kabinett.html">Kabinett</a></li>
+
+        </ul>
+        </li>
+        <li>Mobildeler
+        <ul>
+        <li><a href="skjerm.html">Skjerm</a></li>
+        <li><a href="batteri.html">Batteri</a></li>
+		<li><a href="sdkort.html">SD-kort</a></li>
+
+        </ul>
+        </li>
+    </ul>
+    </nav>
+    <h3>Corsair Carbide Air 540 Cube Case Kabinett </h3>
+    
+    <img src="CorsairCarbideAir540CubeCase.jpg"  height="200px" width="200px">
+    
+    <h4>Pris: 1499kr</h4>
+    <p>Dette 9kg tunge kabinettet er et av de heftigste kabinettene ute på markedet akkurat nå!.</p>
+    <p> Kabinettet tilbyr sidepaneler med vinduer, skrueløse stasjonsbrønner, frontstøvfilter, CPU-sikringsbrytere og mye mer!</p>    
+    <p>Produktets flotte grensesnitt tilbyr to USB 3.0 portner, 1 headphone jack og 1 microphonejack, slik at du kan sette sammen den sammensetningen av PC-utstyr som du mest skulle kunne ønske deg!.</p>
+    <h4>Spesifikasjoner</h4>
+        <nav>
+        <ul>
+            <li>CPU-kjølerhøyde: 170mm</li>
+            <li>Videokortlengde: 320mm</li>
+            <li>Vekt: 9.0kg</li>
+        </ul>
+    </nav>
+    <br>
+
+    
+    <footer>
+        Ukomplett AS
+    </footer>
+</body>
+</html>
