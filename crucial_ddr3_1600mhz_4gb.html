@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Ukomplett </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="gruppeoppgavev2.css">
+	<meta name="author" content="Daniel Svensen Sundell">
+
+	
+	<script>
+		
+		function addcart(){
+			var antall = document.getElementById("antall").value;
+			alert("La til " + antall + " stk i Handlevognen.")
+		
+		}
+		
+	</script>
+	
+	
+	
+	
+	
+</head>
+
+<body>
+    <header>
+        <hr>
+        <div id="logo"></div>  
+        <hr>
+    </header>
+    <nav>
+		<ul>
+			<li>Datautstyr
+				<ul>
+					<li><a href="skjermkort.html">Skjermkort</a></li>
+					<li><a href="harddiskogssd.html">Harddisk og SSD</a></li>
+					<li><a href="hovedkort.html">Hovedkort</a></li>
+					<li><a href="minnekort.html">Minnekort</a></li>
+					<li><a href="cdrom.html">CD-Rom</a></li>
+					<li><a href="kabinett.html">Kabinett</a></li>
+				</ul>
+			</li>
+			<li>Mobildeler
+				<ul>
+					<li><a href="skjerm.html">Skjerm</a></li>
+					<li><a href="batteri.html">Batteri</a></li>
+					<li><a href="sdkort.html">SD-kort</a></li>
+				</ul>
+			</li>
+		</ul>
+    </nav>
+	<br>
+	<div id="main">
+		<h3>Crucial DDR3 1600MHz 4GB</h3>
+    
+		<img src="minnekortbilde1.jpg" alt="Crucial DDR3 1600MHz 4GB" height="200px" width="220px" />
+    
+		<h4>Pris: 449kr</h4>
+		
+		<input type="number" id="antall" value="1" style="color:black; width:50px"/><img src="cart.png" alt="cartIcon" height="50px" width="200px" onclick="addcart()" />
+		
+		<h4>Spesifikasjoner</h4>
+		<nav>
+			<ul>
+				<li>Kapasitet: 4 GB: 2 x 2 GB</li>
+				<li>Oppgraderingstype: Generisk</li>
+				<li>Produsentens varenr.: CT2KIT25664BA160B</li>
+				<li>Produsentens garanti(md.): 24</li>
+				<li>Vekt m/emballasje: 0.10 kg</li>
+				<li>Type: DRAM</li>
+				<li>Teknologi: DDR3 SDRAM</li>
+				<li>Modulhøyde(tommer): 1.18</li>
+				<li>Hastighet: 1600 MHz(PC3-12800)</li>
+				<li>Ventetidstiming: CL11</li>
+				<li>Dataintegritetskontroll: Ikke-ECC</li>
+				<li>Egenskaper: Ikke-bufret</li>
+				<li>Modulkonfigurasjon: 256 x 64</li>
+				<li>Spenning: 1.5V</li>
+			</ul>
+		</nav>
+	</div>
+    <br>
+	
+    
+    <footer>
+        Ukomplett AS
+    </footer>
+</body>
+</html>
