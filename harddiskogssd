@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Ukomplett </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="gruppeoppgave.css">
+</head>
+
+<body>
+    <header>
+        <hr>
+        <div id="logo"></div>  
+        <hr>
+    </header>
+    <nav>
+      <ul>
+        <li>Datautstyr
+        <ul>
+        <li><a href="skjermkort.html">Skjermkort</a></li>
+        <li><a href="harddiskogssd.html">Harddisk og SSD</a></li>
+
+        <li><a href="hovedkort.html">Hovedkort</a></li>
+
+        <li><a href="minnekort.html">Minnekort</a></li>
+
+        <li><a href="cdrom.html">CD-Rom</a></li>
+
+        <li><a href="kabinett.html">Kabinett</a></li>
+
+        </ul>
+        </li>
+        <li>Mobildeler
+        <ul>
+        <li><a href="skjerm.html">Skjerm</a></li>
+        <li><a href="batteri.html">Batteri</a></li>
+		<li><a href="sdkort.html">SD-kort</a></li>
+
+        </ul>
+        </li>
+    </ul>
+    </nav>
+    <h2>Harddisker og SSD</h2>
+    
+    <div>
+    <pre id="pre1"> Harddisker                           SSD </pre>
+    <pre id="pre3"> Seagate 2TB      Toshiba MQ 1TB			     Toshiba Q300 120GB  Sanddisk 240GB </pre>
+    <a href="harddisk1.html">
+	<img border="0" id="bilde1" alt="harddisk1" src="harddisk1.jpg" width="100" height="100">
+	</a>
+	<a href="harddisk2.html">
+	<img border="0" id="bilde2" alt="harddisk2" src="harddisk2.jpg" width="100" height="100">
+	</a>
+	<a href="ssd1.html">
+	<img border="0" id="bilde3" alt="SSD1" src="ssd1.jpg" width="100" height="100">
+	</a>
+	<a href="ssd2.html">
+	<img border="0" id="bilde4" alt="SSD2" src="ssd2.jpg" width="100" height="100">
+	</a>
+	<pre id="pre2">Pris: 795kr 	Pris: 699kr			      Pris: 699kr     Pris: 1595kr </pre>
+	</div>
+    <footer>
+        Ukomplett AS
+    </footer>
+</body>
+</html>
