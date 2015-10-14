@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Ukomplett </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="gruppeoppgave.css">
+</head>
+
+<body>
+    <header>
+        <hr>
+        <div id="logo"></div>  
+        <hr>
+    </header>
+    <nav>
+      <ul>
+        <li>Datautstyr
+        <ul>
+        <li><a href="skjermkort.html">Skjermkort</a></li>
+        <li><a href="harddiskogssd.html">Harddisk og SSD</a></li>
+
+        <li><a href="hovedkort.html">Hovedkort</a></li>
+
+        <li><a href="minnekort.html">Minnekort</a></li>
+
+        <li><a href="cdrom.html">CD-Rom</a></li>
+
+        <li><a href="kabinett.html">Kabinett</a></li>
+
+        </ul>
+        </li>
+        <li>Mobildeler
+        <ul>
+        <li><a href="skjerm.html">Skjerm</a></li>
+        <li><a href="batteri.html">Batteri</a></li>
+		<li><a href="sdkort.html">SD-kort</a></li>
+
+        </ul>
+        </li>
+    </ul>
+    </nav>
+    <h2>SD kort</h2>
+    
+    <div>
+        <pre id="pre1"> SD Kort </pre>
+    <pre id="pre3">Samsung SD 32gb              Samsung SD 64gb            Samsung SD 128gb     </pre>
+	<a href="SD32.html">
+	<img border="0" id="SD32" alt="SD32gb" src="SD32.jpg"width="100" height="100">
+	</a>
+	<a href="SD64.html">
+	<img border="0" id="SD64" alt="SD64gb" src="SD64.jpg"width="100" height="100">
+	</a>
+	<a href="SD128.html">
+	<img border="0" id="SD128" alt="SD128gb" src="SD128.jpg" width="100" height="100">
+	</a>
+	<pre id="pre2"> Pris: 249kr      	Pris: 399kr              Pris: 999kr           </pre>
+	</div>
+    <footer>
+        Ukomplett AS
+    </footer>
+</body>
+</html>
