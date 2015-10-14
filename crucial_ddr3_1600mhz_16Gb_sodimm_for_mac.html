@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Ukomplett </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="gruppeoppgavev2.css">
+	<meta name="author" content="Daniel Svensen Sundell">
+
+	
+	<script>
+		
+		function addcart(){
+			var antall = document.getElementById("antall").value;
+			alert("La til " + antall + " stk i Handlevognen.")
+		
+		}
+		
+	</script>
+	
+	
+	
+	
+	
+</head>
+
+<body>
+    <header>
+        <hr>
+        <div id="logo"></div>  
+        <hr>
+    </header>
+    <nav>
+		<ul>
+			<li>Datautstyr
+				<ul>
+					<li><a href="skjermkort.html">Skjermkort</a></li>
+					<li><a href="harddiskogssd.html">Harddisk og SSD</a></li>
+					<li><a href="hovedkort.html">Hovedkort</a></li>
+					<li><a href="minnekort.html">Minnekort</a></li>
+					<li><a href="cdrom.html">CD-Rom</a></li>
+					<li><a href="kabinett.html">Kabinett</a></li>
+				</ul>
+			</li>
+			<li>Mobildeler
+				<ul>
+					<li><a href="skjerm.html">Skjerm</a></li>
+					<li><a href="batteri.html">Batteri</a></li>
+					<li><a href="sdkort.html">SD-kort</a></li>
+				</ul>
+			</li>
+		</ul>
+    </nav>
+	<br>
+	<div id="main">
+		<h3>Crucial DDR3 1600MHz 16GB SODIMM for Mac</h3>
+    
+		<img src="minnekortbilde3.jpg" alt="Crucial DDR3 1600MHz 16GB SODIMM for Mac" height="200px" width="250px" />
+    
+		<h4>Pris: 1.099kr</h4>
+		
+		<input type="number" id="antall" value="1" style="color:black; width:50px"/><img src="cart.png" alt="cartIcon" height="50px" width="200px" onclick="addcart()" />
+		
+		<h4>Spesifikasjoner</h4>
+		<nav>
+			<ul>
+				<li>Kapasitet: 16 GB : 2 x 8 GB</li>
+				<li>Oppgraderingstype: Systemspesifikk</li>
+				<li>Produsentens varenr.: CT2C8G3S160BMCEU</li>
+				<li>Produsentens garanti(md.): 120</li>
+				<li>Vekt m/emballasje: 0.06 kg</li>
+				<li>Type: DRAM</li>
+				<li>Teknologi: DDR3 SDRAM</li>
+				<li>Produktformfaktor: SO DIMM 204-pin</li>
+				<li>Hastighet: 1600 MHz(PC3-12800)</li>
+				<li>Ventetidstiming: CL11</li>
+				<li>Dataintegritetskontroll: Ikke-ECC</li>
+				<li>Egenskaper: Ikke-bufret</li>
+				<li>Kompatible spor: 2 x minne- SO DIMM 204-pin</li>
+				<li>Spenning: 1.35 / 1.5 V</li>
+				<li>Designet for: Apple iMac (27 in)<br>Apple MacBook Pro</li>
+			</ul>
+		</nav>
+	</div>
+    <br>
+	
+    
+    <footer>
+        Ukomplett AS
+    </footer>
+</body>
+</html>
